@@ -1,0 +1,29 @@
+:root {
+  --bg-dark: #0f172a;
+  --text-light: #f1f5f9;
+  --accent-color: #2dd4bf;
+}
+
+.footer {
+  background-color: var(--bg-dark);
+  padding: 1.5rem;
+  text-align: center;
+  font-size: 0.95rem;
+  color: var(--text-light);
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.footer p {
+  margin: 0;
+}
+
+.footer .brand {
+  color: var(--accent-color);
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.footer .brand:hover {
+  color: #00ffe1;
+  cursor: default;
+}
