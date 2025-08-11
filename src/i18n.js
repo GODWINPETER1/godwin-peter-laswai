@@ -13,7 +13,20 @@ const resources = {
       Hi: 'Hi',
       "I’m": "I’m",
       aboutParagraph:
-        "I'm a passionate developer with a mission to create delightful and scalable web experiences. I specialize in building modern apps using <1>React</1>, <3>Node</3>, and <5>Python</5>."
+        "I'm a passionate developer with a mission to create delightful and scalable web experiences. I specialize in building modern apps using <1>React</1>, <3>Node</3>, and <5>Python</5>.",
+      connectButton: "Let's Connect",
+      workButton: "See My Work" ,
+      "projectDescription": {
+        "taskManagement": "A Trello-like system with drag & drop, labels, calendar, and collaboration features.",
+        "financeTracker": "Personal tracker to track all your day to day expenses.",
+        "clientPortfolio": "Client personal portfolio showcasing his projects, achievement, and mission.",
+        "famhub": "Design & Developed using WordPress.",
+        "ecommerce": "Design & Development using React, Tailwind, and Redux Toolkit.",
+        "nikeLanding": "Responsive React.js website.",
+        "coffeeShop": "Responsive Vanilla JS and Bootstrap website.",
+        "aiLanding": "Design & Development using React, Vite, and Tailwind."
+
+      }
     },
   },
   sw: {
@@ -28,7 +41,9 @@ const resources = {
       Hi: 'Habari',
       "I’m": "Mimi ni",
       aboutParagraph:
-        "Mimi ni msanidi programu mwenye shauku kubwa na dhamira ya kuunda uzoefu wa wavuti wa kuvutia na unaokua kwa urahisi. Nimebobea katika kutengeneza programu za kisasa kwa kutumia <1>React</1>, <3>Node</3>, na <5>Python</5>."
+        "Mimi ni msanidi programu mwenye shauku kubwa na dhamira ya kuunda uzoefu wa wavuti wa kuvutia na unaokua kwa urahisi. Nimebobea katika kutengeneza programu za kisasa kwa kutumia <1>React</1>, <3>Node</3>, na <5>Python</5>.",
+      connectButton: "Wasiliana Nami",
+      workButton: "Angalia Kazi Zangu"    
     },
   },
   fr: {
@@ -42,7 +57,9 @@ const resources = {
       Hi: 'Salut',
       "I’m": "Je suis",
       aboutParagraph:
-        "Je suis un développeur passionné avec pour mission de créer des expériences web agréables et évolutives. Je suis spécialisé dans la création d'applications modernes en utilisant <1>React</1>, <3>Node</3>, et <5>Python</5>."
+        "Je suis un développeur passionné avec pour mission de créer des expériences web agréables et évolutives. Je suis spécialisé dans la création d'applications modernes en utilisant <1>React</1>, <3>Node</3>, et <5>Python</5>.",
+      connectButton: "Entrons en contact",
+      workButton: "Voir mon travail"
     },
   },
   sv: {
@@ -56,7 +73,9 @@ const resources = {
       Hi: 'Hej',
       "I’m": "Jag är",
       aboutParagraph:
-        "Jag är en passionerad utvecklare med ett uppdrag att skapa trevliga och skalbara webbupplevelser. Jag är specialiserad på att bygga moderna appar med <1>React</1>, <3>Node</3> och <5>Python</5>."
+        "Jag är en passionerad utvecklare med ett uppdrag att skapa trevliga och skalbara webbupplevelser. Jag är specialiserad på att bygga moderna appar med <1>React</1>, <3>Node</3> och <5>Python</5>.",
+      connectButton: "Låt oss ansluta",
+      workButton: "Se mitt arbete"  
     },
   },
   ar: {
@@ -70,7 +89,9 @@ const resources = {
       Hi: 'مرحباً',
       "I’m": "أنا",
       aboutParagraph:
-        "أنا مطور شغوف لدي مهمة لإنشاء تجارب ويب ممتعة وقابلة للتطوير. أُتقن بناء التطبيقات الحديثة باستخدام <1>React</1>، <3>Node</3>، و<5>Python</5>."
+        "أنا مطور شغوف لدي مهمة لإنشاء تجارب ويب ممتعة وقابلة للتطوير. أُتقن بناء التطبيقات الحديثة باستخدام <1>React</1>، <3>Node</3>، و<5>Python</5>.",
+      connectButton: "لنتواصل",
+      workButton: "عرض عملي"
     },
   },
 };

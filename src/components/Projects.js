@@ -9,28 +9,28 @@ function Projects() {
   const projectList = [
     {
       title: 'Task Management System',
-      description: 'A Trello-like system with drag & drop, labels, calendar, and collaboration features.',
+      description: 'projectDescription.taskManagement',
       tech: ['React', 'Python', 'PostgreSQL'],
       link: 'https://github.com/GODWINPETER1/full_stack_task_management_system.git',
       type: 'code'
     },
     {
       title: 'Personal Finance Management',
-      description: 'Personal tracker to track all your day to day expenses.',
+      description: 'projectDescription.financeTracker',
       tech: ['React', 'Node.js', 'MySQL'],
       link: 'https://github.com/GODWINPETER1/person_fincance_tracker.git',
       type: 'code'
     },
     {
-      title: 'Client Portfolio',
-      description: 'Client personal portfolio showcasing his projects, achievement, and mission.',
+      title: 'Chief Godlove Portfolio',
+      description: 'projectDescription.clientPortfolio',
       tech: ['React', 'CSS Modules', 'Vite'],
-      link: 'https://godlove-portfolio-one.vercel.app/',
+      link: 'https://www.chiefgodlove.vip/',
       type: 'View Website'
     },
     {
       title: 'Famhub Company Website',
-      description: 'Design & Develped using wordpress.',
+      description: 'projectDescription.famhub',
       tech: ['Wordpress', 'PHP'],
       link: 'https://www.famhub.co.tz/',
       type: 'View Website'
@@ -100,7 +100,7 @@ function Projects() {
               transition={{ duration: 0.5, ease: 'easeOut' }}
             >
               <h3>{project.title}</h3>
-              <p>{project.description}</p>
+              <p>{t(project.description)}</p>
               <div className="tech-stack">
                 {project.tech.map((techItem, i) => (
                   <span className="tech-item" key={i}>{techItem}</span>

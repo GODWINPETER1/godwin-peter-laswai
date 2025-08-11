@@ -50,8 +50,8 @@ function About() {
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.9 }}
           >
-            <a href="#contact" className="btn primary">{t('Let\'s Connect')} ✉️</a>
-            <a href="#projects" className="btn secondary">{t('See My Work')} 💼</a>
+            <a href="#contact" className="btn primary">{t('connectButton')} ✉️</a>
+            <a href="#projects" className="btn secondary">{t('workButton')} 💼</a>
           </motion.div>
         </motion.div>
 
