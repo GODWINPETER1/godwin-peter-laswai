@@ -21,6 +21,13 @@ function Projects() {
       link: 'https://github.com/GODWINPETER1/person_fincance_tracker.git',
       type: 'code'
     },
+     {
+      title: 'Booking Web App',
+      description: 'Booking Web app where you can book flights',
+      tech: ['React', 'Node.js', 'MySQL'],
+      link: 'https://github.com/GODWINPETER1/plane-booking-web.git',
+      type: 'code'
+    },
     {
       title: 'Chief Godlove Portfolio',
       description: 'projectDescription.clientPortfolio',
