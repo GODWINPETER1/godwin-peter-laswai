@@ -23,7 +23,7 @@ function Projects() {
     },
      {
       title: 'Booking Web App',
-      description: 'Booking Web app where you can book flights',
+      description: 'A modern flight booking web application built with React + TypeScript on the frontend and Node.js with Express on the backend. The system allows users to search flights, explore popular destinations, view special promotions, read testimonials, and subscribe to newsletters. Designed with a responsive and user-friendly UI, this project demonstrates full-stack development skills including REST API integration, state management, and database connectivity.',
       tech: ['React', 'Node.js', 'MySQL'],
       link: 'https://github.com/GODWINPETER1/plane-booking-web.git',
       type: 'code'
