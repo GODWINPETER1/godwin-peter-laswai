@@ -14,6 +14,8 @@ function Skills() {
     'Express.js',
     'Python',
     'Django',
+    'PHP',
+    'Laravel',
     'PostgreSQL',
     'MongoDB',
     'Git & GitHub',
