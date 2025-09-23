@@ -70,6 +70,22 @@ function Projects() {
       link: "https://ai-landing-page-gilt.vercel.app/",
       type: 'View Website'
     },
+    {
+      title: "Ai-landing Page",
+      description: "Design & Development using React , Vite and Tailwind",
+      tech: ['React', 'Vite', 'TailwindCss'],
+      link: "https://ai-landing-page-gilt.vercel.app/",
+      type: 'View Website'
+    },
+
+    {
+      title: "Movie List App",
+      description: "A movie listing web app with search and genre-based filtering, built using React, Vite, and Tailwind CSS.",
+      tech: ["React", "Vite", "Tailwind CSS"],
+      link: "https://movie-list-frontend-project.vercel.app/",
+      type: "View Project"
+    }
+
   ];
 
   return (
