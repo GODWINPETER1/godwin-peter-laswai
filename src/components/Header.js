@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import '../styles/Header.css';
-import ThemeToggle from './ThemeToggle';
+
 
 function Header() {
   const { i18n } = useTranslation();
