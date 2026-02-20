@@ -84,7 +84,35 @@ function Projects() {
       tech: ["React", "Vite", "Tailwind CSS"],
       link: "https://movie-list-frontend-project.vercel.app/",
       type: "View Project"
-    }
+    },
+    {
+      title: "Panafricatourism Board",
+      description: "Pan Africa Tourism Board (PATBoard) is a continental tourism platform dedicated to positioning Africa as a unified, world-class travel destination.",
+      tech: ['Wordpress'],
+      link: "https://www.panafricatourismboard.com/",
+      type: "View Website"
+    },
+    {
+      title: "Barongo General Supply",
+      description: "Barongo General Supply Ltd is a Tanzian-based supplier specializing in high-quality building materials, particularly tiles and gypsum products.",
+      tech: ['React' , 'Vite' , 'Tailwind , Nodejs' , 'Mysql'],
+      link: "https://barongogeneralsupplyltd.co.tz/",
+      type: "View Website"
+    },
+    {
+      title: "Tawima",
+      description: "A movie listing web app with search and genre-based filtering, built using React, Vite, and Tailwind CSS.",
+      tech: ['Wordpress'],
+      link: "https://tawima.or.tz/",
+      type: "View Website"
+    },
+    {
+      title: "Pamoja We Can Website",
+      description: "A movie listing web app with search and genre-based filtering, built using React, Vite, and Tailwind CSS.",
+      tech: ['React' , 'Vite' , 'Tailwind' , 'Nodejs' , 'Mysql'],
+      link: "https://test.pamojawecan.org/",
+      type: "View Website"
+    },
 
   ];
 
