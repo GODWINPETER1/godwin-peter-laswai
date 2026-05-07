@@ -113,6 +113,24 @@ function Projects() {
       link: "https://test.pamojawecan.org/",
       type: "View Website"
     },
+    {
+  title: "TAWIMA Management System",
+  description:
+    "A comprehensive wildlife media association management platform built for TAWIMA (Tanzania Wildlife Media Association). The system includes a modern public website, secure admin portal, and member portal for managing memberships, events, user roles, approvals, directorates, membership categories, and association operations. Features include authentication, member onboarding, dashboard analytics, event management, role-based access control, responsive UI, and real-time administrative workflows.",
+  tech: [
+    "React",
+    "TypeScript",
+    "Vite",
+    "Tailwind CSS",
+    "Node.js",
+    "Express.js",
+    "MySQL",
+    "JWT Authentication",
+    "REST API"
+  ],
+  link: "https://app.tawima.or.tz/",
+  type: "View Website"
+}
 
   ];
 
