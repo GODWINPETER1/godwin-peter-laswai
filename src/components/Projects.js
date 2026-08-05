@@ -130,6 +130,93 @@ function Projects() {
   ],
   link: "https://app.tawima.or.tz/",
   type: "View Website"
+},
+{
+  title: "Poa Gas Mini App (Airtel Tanzania)",
+  description:
+    "A production-ready gas ordering mini application integrated into the Airtel Tanzania Self-Care App. Customers can browse gas vendors, place gas refill orders, make secure payments, and track their orders through an intuitive mobile-first interface. Built with responsive UI, multilingual support, REST API integration, and seamless Airtel ecosystem connectivity.",
+  tech: [
+    "React",
+    "TypeScript",
+    "Vite",
+    "Tailwind CSS",
+    "REST API",
+    "i18next"
+  ],
+  link: "https://airtel.apigas.co.tz/",
+  type: "View Website"
+},
+{
+  title: "ejenga E-commerce",
+  description:
+    "A scalable RESTful backend powering the Ijenga e-commerce platform. Features include authentication, product catalog management, shopping cart, order processing, address management, payment integration, customer profiles, and well-structured API documentation built for production environments.",
+  tech: [
+    "Laravel",
+    "PHP",
+    "MySQL",
+    "REST API",
+    "JWT Authentication",
+    "Postman"
+  ],
+  link: "#",
+  type: "Private Project"
+},
+{
+  title: "Smart Sickle Care Management System",
+  description:
+    "A healthcare management platform designed for sickle cell patient management. The system handles patient registration, appointments, screening records, clinical history, reporting dashboards, research statistics, and administrative workflows with a responsive interface.",
+  tech: [
+    "Laravel",
+    "PHP",
+    "Bootstrap",
+    "MySQL",
+    "JavaScript"
+  ],
+  link: "#",
+  type: "Private Project"
+},
+{
+  title: "Melian Foundation Website",
+  description:
+    "A modern NGO website developed for Melian Foundation featuring dynamic content management, education programs, research pages, events, donation information, project showcases, responsive design, and an intuitive administration panel.",
+  tech: [
+    "Laravel",
+    "PHP",
+    "Bootstrap",
+    "MySQL"
+  ],
+  link: "#",
+  type: "Private Project"
+},
+{
+  title: "Umoja Pharmaceuticals Prescription Upload",
+  description:
+    "A mobile-first prescription upload application allowing patients to securely upload prescriptions, choose insurance providers, submit medication requests, and integrate with Umoja Pharmaceuticals backend services through REST APIs.",
+  tech: [
+    "React",
+    "TypeScript",
+    "Vite",
+    "Tailwind CSS",
+    "REST API"
+  ],
+  link: "#",
+  type: "Private Project"
+},
+{
+  title: "Marketplace Platform (In Progress)",
+  description:
+    "A modern service marketplace inspired by platforms like TaskRabbit, allowing customers to hire skilled professionals for various services. The platform includes authentication, service listings, bookings, provider profiles, payments, reviews, notifications, and a fully responsive user experience.",
+  tech: [
+    "Next.js",
+    "React",
+    "Node.js",
+    "Express.js",
+    "MySQL",
+    "Tailwind CSS",
+    "Shadcn UI"
+  ],
+  link: "#",
+  type: "In Progress"
 }
 
   ];
